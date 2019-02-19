@@ -1,1 +1,39 @@
-// 1 hour
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <title>Ajax Request</title>
+    <script>
+
+$(document).ready(function(){
+
+    document.getElementById("myBtn").addEventListener("click", displayName);
+          function displayName() {
+   document.getElementById("demo").innerText = mygith();
+}
+
+
+$.get("https://api.github.com/users/dawitad", mygith)
+
+function mygith(data){
+    var mygithubdata;
+    mygithubdata = data.url;
+	console.log("Got my github data", mygithubdata); 
+         // Predict the output!
+         return mygithubdata;
+    }
+});       
+
+    
+    </script>
+ </head>
+ <body>
+     <p id="demo"></p>
+    <button id="myBtn">
+        Display
+    </button>
+</body>
+</html>
