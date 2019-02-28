@@ -1,0 +1,19 @@
+h1 {
+
+color: red;
+
+}
+.container{
+    margin : 200px;
+   border-right: 10px solid red;
+   border-bottom:10px solid red;
+
+}
+
+.title{
+    font-size: 50px;
+    color : rgb(161, 161, 238);
+    font-weight: bold;
+    padding-left:200px;
+    padding-bottom: 30px;
+}

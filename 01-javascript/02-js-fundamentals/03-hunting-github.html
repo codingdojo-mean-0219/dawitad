@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <title>Hunthing Github</title>
+</head>
+<body>
+    <button id="btn"> Click here!</button>
+    <p id="result"></p>
+    
+    <script>
+    
+    $(document).ready(function() {
+    $.get("https://api.github.com/users/dawittk", displayName);
+
+    function displayName (data) {
+        $("#btn").click(function() {
+            $("#result").append(`<h1>${data.login}</h1>`)
+        })
+    };
+});
+
+    
+    </script>
+</body>
+</html>
