@@ -111,7 +111,7 @@ class Player{
 var d1 = new Deck;
 d1.display()
 console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
-var D = new Player('Dawit', d1);
-D.draw(5).displayHand();
+var Bret = new Player('Bret', d1);
+Bret.draw(5).displayHand();
 console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
-D.discard(4).discardHand().displayHand();
+Bret.discard(4).discardHand().displayHand();
