@@ -1,0 +1,39 @@
+#wrapper {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.task {
+    border: 1px solid gray;
+    margin-bottom: 1em;
+    padding: 10px;
+}
+
+.col {
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 20px;
+    width: 50%;
+}
+
+form {
+    border: 1px solid gray;
+    margin-bottom: 1em;
+    padding: 10px;
+}
+
+button, input[type="submit"] {
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    background-color: mediumorchid;
+    color: white;
+    font-size: 0.9em;
+    padding: 1px 5px;
+    font-weight: lighter;
+    margin-right: 10px;
+}
+
+input[type="text"] {
+    border: 2px solid black;
+    font-size: 0.9em;
+}
