@@ -1,0 +1,16 @@
+.root{
+    border:5px solid navy;
+    border-radius: 10px;
+    margin:100px;
+    padding:50px;
+}
+button{
+    width:150px;
+    height:40px;
+    background-color: rgb(3, 94, 3);
+    color:white;
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 15px;
+
+}
